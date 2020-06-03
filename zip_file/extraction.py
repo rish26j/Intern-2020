@@ -1,6 +1,8 @@
 from zipfile import ZipFile
-file_name="city.zip"
-with ZipFile(file_name,'r') as zip:
+
+fname="city.zip"
+
+with ZipFile(fname,'r') as zip:
     print("Extracting all files........")
 
     zip.extract("jaipur.txt")
