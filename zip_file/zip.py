@@ -29,7 +29,7 @@ except:
 else:
     print("Files zipped")
     
-    def file_paths(directory):
+def file_paths(directory):
     file_paths = []
     for root, directories, files in os.walk(directory):
         for filename in files:
